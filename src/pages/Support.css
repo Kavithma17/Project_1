@@ -1,0 +1,79 @@
+.support-section {
+  min-height: 100vh;
+  background-image:url(../assets/ss3.jpg) ;
+  background-size: cover;
+  
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+.support-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f59e0b;
+  margin-bottom: 1rem;
+  padding-top: 60px;
+}
+
+.support-description {
+  color: #4b5563;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+}
+
+.support-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+}
+
+.support-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ea580c;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.card-button {
+  background-color: #f59e0b;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #ea580c;
+}
+
+.emergency-box {
+  background-color: #fef3c7;
+  border: 1px solid #fcd34d;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.emergency-text {
+  color: #c2410c;
+  font-weight: 600;
+}

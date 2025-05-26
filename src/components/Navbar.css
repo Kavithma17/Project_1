@@ -1,0 +1,77 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6940; /* Tailwind's purple-600 */
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.navbar-link {
+  margin-left: 1.5rem;
+  color: #4b5563; /* Tailwind's gray-700 */
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #ffb940; /* Tailwind's purple-600 */
+  
+}
+
+.navbar-button {
+  display: none;
+}
+
+.get-started-btn {
+  background-color: #ff6940;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #e94c25;
+}
+
+.navbar-hamburger {
+  display: block;
+}
+
+/* Responsive for medium screens and up */
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+  }
+
+  .navbar-button {
+    display: block;
+  }
+
+  .navbar-hamburger {
+    display: none;
+  }
+}

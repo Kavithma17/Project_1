@@ -1,0 +1,228 @@
+/* CheckIn.css */
+
+.checkin-container {
+ 
+ 
+  
+  justify-content: left;
+ 
+  
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(214, 87, 23, 0.1);
+  font-family: 'Arial', sans-serif;
+  
+
+}
+
+.welcome3 {
+  display: flex;
+  flex-direction: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 40px ;
+background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   text-align: center;
+  gap: 30px;
+  
+  
+}
+
+/* Image Styling */
+.welcome3 .r-image img {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.welcome3 .r-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Text Content Styling */
+.welcome3-content {
+  max-width: 600px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.welcome3-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff6a00;
+}
+
+.welcome3-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #6c3c00;
+  text-align: center;
+}
+
+.welcome3-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #e68600;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.welcome3-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  padding: 0 40px;
+  color: #555;
+  text-align: center  ;
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .welcome3 {
+    padding: 60px 15px;
+  }
+
+  .welcome3-content h1 {
+    font-size: 2rem;
+  }
+
+  .welcome3-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .welcome3-content h4 {
+    font-size: 1rem;
+  }
+
+  .welcome3-content p {
+    font-size: 0.95rem;
+  }
+  .welcome3-r-img
+  {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
+/* Base section styles */
+.checkin-mood-section,
+.checkin-notes-section,
+.checkin-submit-section,
+.checkin-quote-section {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 1rem 2rem;
+  background-color: #fffbea84; /* soft yellow background */
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Headings and subtext */
+h3 {
+  font-size: 1.5rem;
+  color: #8d4400;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.section-subtext {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Mood buttons */
+.mood-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.mood-btn {
+  font-size: 1.8rem;
+  background-color: #fff;
+  border: 2px solid #f6c453; /* warm yellow border */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mood-btn:hover {
+  border-color: #f9a825; /* deeper yellow on hover */
+  transform: scale(1.05);
+}
+
+.mood-btn.selected {
+  background-color: #ffe082; /* soft yellow highlight */
+  border-color: #f57c00; /* strong orange */
+  box-shadow: 0 0 8px rgba(255, 183, 77, 0.5); /* warm glow */
+}
+
+/* Notes textarea */
+.notes-textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1.5px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+  background-color: #fffbd2;
+  transition: border-color 0.3s ease;
+}
+
+.notes-textarea:focus {
+  outline: none;
+  border-color: #ffa726; /* orange focus */
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.3);
+}
+
+/* Submit button */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background-color: #ffa000; /* vibrant orange */
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #fb8c00;
+}
+
+.submit-btn:disabled {
+  background-color: #ffe0b2; /* pale orange */
+  cursor: not-allowed;
+}
+
+/* Quote block */
+
+
+/* Optional confirmation */
+.checkin-confirmation {
+  text-align: center;
+  font-weight: 500;
+  color: #43a047;
+  margin-top: 1rem;
+}
+.part2 {
+  background-image: url('src/assets/mood7.jpg'); /* Replace with actual path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  
+ 
+}
