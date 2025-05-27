@@ -1,0 +1,106 @@
+/* General styling for the signup page */
+.signup {
+  font-family: Arial, sans-serif;
+  background-image: url(../assets/mood7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top :50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+/* Signup form container */
+.signup-container {
+  background: #ffffffd1;
+  padding-top: -30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.signup-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#ff5e00;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+/* Signup form input box */
+.signup-box {
+  margin-bottom: 30px;
+  width: 350px;
+  margin-left: 10px;
+  
+}
+
+
+.signup-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-box input:focus {
+  outline: none;
+  border-color: #ffccae;
+  box-shadow: 0px 0px 5px rgba(255, 224, 163, 0.434);
+}
+
+/* Signup button styling */
+.signup-button {
+  text-align: center;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+.signup-button button {
+  background-color: #ff5e00;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button button:hover {
+  background-color: #ff5e00;
+}
+
+/* Signup text and link styling */
+.signup-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #ff5e00;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

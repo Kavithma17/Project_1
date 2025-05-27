@@ -1,0 +1,139 @@
+/* General styling for the login page */
+.login {
+  background-image: url(../assets/mood7.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ .login-text
+ {margin-top: 30px;
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  
+ }
+ 
+ .log-container{
+   background-color: #ffffffd0;
+   display: flex;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   width: 400px;
+   
+   height: 490px;
+   
+ }
+ 
+ .log-container h3{
+  color: #ff5e00;
+  font-size: 2rem;
+  margin-top: 20px;
+  text-align: center;
+ }
+ 
+ .log-box {
+   margin-bottom: 30px;
+   width: 350px;
+   margin-left: 10px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 8px;
+   font-size: 1rem;
+   font-weight: 600;
+   color: #333;
+ }
+ 
+ input[type="email"],
+ input[type="password"] {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 1rem;
+ }
+ 
+ input[type="email"]:focus,
+ input[type="password"]:focus {
+   outline: none;
+   border-color: #ffc4a2;
+   box-shadow: 0 0 5px rgba(255, 241, 150, 0.365);
+ }
+ 
+ /* Button styling */
+ .log-button {
+   text-align: center;
+   margin-top: 20px;
+   margin-left: -40px;
+ }
+ 
+ .log-buttun1 {
+   background-color: #ff5e00;
+   color: #ffffff;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .log-buttun1:hover {
+   background-color: #ffa774;
+ }
+ 
+ /* Link styling */
+ .not-register {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 0.9rem;
+ }
+ 
+ .not-register a {
+   color: #ff5e00;
+   text-decoration: none;
+   font-weight: bold;
+ }
+ 
+ .not-register a:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Responsive styling */
+ @media (max-width: 768px) {
+   .log-container1 {
+     width: 90%;
+     padding: 20px;
+   }
+ 
+   h3 {
+     font-size: 1.5rem;
+   }
+ 
+   .log-buttun1 {
+     padding: 10px 15px;
+     font-size: 0.9rem;
+   }
+ }
+ .error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

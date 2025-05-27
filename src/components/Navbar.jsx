@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Link to the external CSS file
+import './Navbar.css';
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -12,7 +22,7 @@ function Navbar() {
           <Link to="/">BloomWell</Link>
         </div>
 
-        {/* Navigation Links (Desktop) */}
+        {/* Desktop Nav Links */}
         <div className="navbar-links">
           <Link to="/" className="navbar-link">Home</Link>
           <Link to="/checkin" className="navbar-link">Mood Check-In</Link>
@@ -20,19 +30,27 @@ function Navbar() {
           <Link to="/support" className="navbar-link">Support</Link>
         </div>
 
-        {/* Button (Optional) */}
+        {/* Desktop Login Button */}
         <div className="navbar-button">
-          <Link to="/get-started" className="get-started-btn">Get Started</Link>
+          <Link to="/login" className="get-started-btn">Login</Link>
         </div>
 
-        {/* Hamburger Icon (Mobile - not functional yet) */}
-        <div className="navbar-hamburger">
-          <button>
-            <span className="hamburger-icon">☰</span>
-          </button>
+        {/* Hamburger Button (Mobile) */}
+        <div className="navbar-hamburger" onClick={toggleMenu}>
+          <span className="hamburger-icon">☰</span>
         </div>
-
       </div>
+
+      {/* Mobile Dropdown Menu */}
+      {isMenuOpen && (
+        <div className="mobile-menu">
+          <Link to="/" className="navbar-link" onClick={closeMenu}>Home</Link>
+          <Link to="/checkin" className="navbar-link" onClick={closeMenu}>Mood Check-In</Link>
+          <Link to="/relax" className="navbar-link" onClick={closeMenu}>Relax</Link>
+          <Link to="/support" className="navbar-link" onClick={closeMenu}>Support</Link>
+          <Link to="/login" className="get-started-btn" onClick={closeMenu}>Login</Link>
+        </div>
+      )}
     </nav>
   );
 }

@@ -1,10 +1,10 @@
 .support-section {
   min-height: 100vh;
-  background-image:url(../assets/ss3.jpg) ;
-  background-size: cover;
-  
+   background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff); 
+
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
+  
 
 }
 
@@ -17,7 +17,7 @@
 }
 
 .support-description {
-  color: #4b5563;
+  color: #000000;
   max-width: 600px;
   margin: 0 auto 2rem auto;
   font-size: 1.1rem;
@@ -32,10 +32,11 @@
 }
 
 .support-card {
-  background-color: #ffffff;
+  background-color: #ffefef;
   padding: 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.15);
+  box-shadow: 0 4px 12px rgba(139, 100, 0, 0.689);
+ 
 }
 
 .card-title {
@@ -46,7 +47,7 @@
 }
 
 .card-text {
-  color: #6b7280;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -65,15 +66,111 @@
 }
 
 .emergency-box {
-  background-color: #fef3c7;
-  border: 1px solid #fcd34d;
-  padding: 1rem;
+  background-color: #ffdcff;
+  border: 1px solid #f1c2ff;
+ 
   border-radius: 0.75rem;
   max-width: 600px;
   margin: 0 auto;
+  
+  
 }
 
 .emergency-text {
   color: #c2410c;
   font-weight: 600;
+}
+.contact-doctor-section {
+  padding: 40px 20px; 
+  background-image: url(../assets/d1.jpg);
+  background-size: cover;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.doctor-form {
+  max-width: 600px;
+  
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.problem-input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+  resize: vertical;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.947);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.problem-input:focus {
+  border-color: #ffcf70;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 212, 126, 0.5);
+}
+
+.submit-button {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #ffb31b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #cc880b;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-warning {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.login-reminder {
+  color: #d9534f;
+  background-color: #fff3f3;
+  padding: 10px;
+  border: 1px solid #d9534f;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: 285px;
+ 
+}
+@media (max-width: 600px) {
+  .doctor-form {
+    padding: 2opx0 50px;
+   
+  }
+  .doctor-form h1{
+padding-top: 20px;
+  }
+  .problem-input {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+  }
+
+  .login-reminder {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

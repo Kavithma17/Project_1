@@ -13,7 +13,7 @@
 
 /* Quote Box */
 .quote-box {
-  background-image: url(../assets/e.jpg);
+  background-image: url(../assets/ss2.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -25,9 +25,10 @@
 }
 
 .quote-text {
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   color: #000000;
+  font-weight: bold;
   letter-spacing: 10px;
 }
 
@@ -99,6 +100,10 @@
 @media (max-width: 768px) {
   .welcome2 {
     padding: 40px 15px;
+     padding: 60px 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .welcome2-content h1 {

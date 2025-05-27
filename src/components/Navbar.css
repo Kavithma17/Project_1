@@ -75,3 +75,13 @@
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .navbar-links,
+  .navbar-button {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+}

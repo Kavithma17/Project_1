@@ -82,6 +82,9 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
 @media (max-width: 768px) {
   .welcome3 {
     padding: 60px 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .welcome3-content h1 {
@@ -102,7 +105,7 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
   .welcome3-r-img
   {
     max-width: 100%;
-    flex-direction: column;
+    max-width: 280px;
   }
 }
 /* Base section styles */
