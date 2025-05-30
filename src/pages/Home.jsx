@@ -8,7 +8,7 @@ const Home = () => {
 const [fDetails, setfDetails] = useState('MindHug is designed to support female students by offering a safe, inclusive, and empowering digital space. Our platform focuses on peer connection, emotional well-being, and self-care. With features like anonymous chats, peer groups, mental health resources, and personalized self-care tools, MindHug fosters a culture of empathy and support. Explore each feature to discover how we’re helping students thrive mentally and emotionally.');
 
 
-  const [backgroundImage, setBackgroundImage] = useState('src/assets/h1.jpg'); // Default background image
+  const [backgroundImage, setBackgroundImage] = useState('src/assets/h1.jpg'); 
 
 
  
@@ -72,7 +72,7 @@ const [fDetails, setfDetails] = useState('MindHug is designed to support female 
         
       </div>
 
-      {/* Main section */}
+      
       <section className="home">
         <div className="home-content">
           <h6>
@@ -95,7 +95,7 @@ const [fDetails, setfDetails] = useState('MindHug is designed to support female 
         </div>
       </section>
 
-      {/* Welcome section */}
+     
       <section className="welcome">
          <div className="home-image">
           <img src="src/assets/a1.jpg"/>
@@ -149,7 +149,7 @@ const [fDetails, setfDetails] = useState('MindHug is designed to support female 
 
       
 
-      {/* Latest News section */}
+     
       <div className="top-bar">
         <span>
           <h2 > LATEST NEWS </h2>

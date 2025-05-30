@@ -1,9 +1,9 @@
-/* Top Bar */
+
 .top-bar {
-  background-color: #ffbd61; /* Blue background color */
-  color: #ffffff; /* White text */
+  background-color: #ffbd61; 
+  color: #ffffff; 
   display: flex;
-  justify-content: space-between; /* Space out items */
+  justify-content: space-between; 
   padding:30px 200px;
   font-family: Arial;
   font-size: 1rem;
@@ -15,7 +15,7 @@
   margin-top: 10px;
 }
 
-/* Media Query for smaller screens */
+
 @media (max-width: 768px) {
   .top-bar {
     flex-direction: column;
@@ -33,7 +33,7 @@
 
 
 
-/* Home Section */
+
 .home {
    
   display: flex;
@@ -43,7 +43,7 @@
   box-sizing: border-box;
 }
 
-/* Home Content Section */
+
 .home-content {
   max-width: 40%;
   padding-left: 50px;
@@ -80,7 +80,7 @@
   }
 }
 
-/* Button Styling */
+
 .home-button {
   display: inline-block;
   padding: 12px 30px;
@@ -99,7 +99,7 @@
   background-color: #e94c25;
 }
 
-/* Image Section */
+
 .home-image {
   
   padding-top: 50px;
@@ -108,7 +108,7 @@
   display: flex;
 }
 
-/* Responsive Design for Home Section */
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -127,8 +127,7 @@
   }
 }
 
-/* Welcome Section */
-/* Welcome Section - Single Column */
+
 .welcome {
   display: flex;
   flex-direction: flex; 
@@ -143,7 +142,7 @@
   
 }
 
-/* Image Styling */
+
 .welcome .home-image img {
   width: 100%;
   max-width: 800px;
@@ -158,7 +157,7 @@
   transform: scale(1.02);
 }
 
-/* Text Content Styling */
+
 .welcome-content {
   max-width: 600px;
   font-family: 'Arial', sans-serif;
@@ -190,7 +189,7 @@
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .welcome {
     padding: 40px 15px;
@@ -213,7 +212,7 @@
   }
 }
 
-/* FEATURES SECTION */
+
 .f-section {
   display: flex;
   justify-content: space-between;
@@ -221,7 +220,7 @@
   margin:  100px auto ;
   margin-bottom: 30px;
   padding: 80px;
-  background-color: #fffcf9; /* Soft, warm tone */
+  background-color: #fffcf9; 
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 1100px;
@@ -235,11 +234,11 @@
   }
 }
 
-/* Fix: Home image and button responsiveness */
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
-    align-items: center;   /* center horizontally */
+    align-items: center;   
     justify-content: center;
     padding: 50px 15px;
     text-align: center;
@@ -252,7 +251,7 @@
     margin-bottom: 30px;
   }
 
-  /* Adjust h1 and h6 spacing and size */
+
   .home-content h1 {
     font-size: 1.1rem;
     margin-top: 20px;
@@ -266,7 +265,7 @@
     margin-bottom: 30px;
   }
 
-  /* Button takes full width but max width */
+ 
   .home-button {
     width: 90%;
     max-width: 300px;
@@ -276,7 +275,7 @@
     display: block;
   }
 
-  /* Image container */
+  
   .home-image {
     max-width: 100%;
     padding-top: 0;
@@ -284,12 +283,12 @@
     justify-content: center;
   }
 
-  /* Image inside container */
+
   .home-image img {
     width: 100%;
     max-width: 350px;
     height: auto;
-    border-radius: 10px; /* optional */
+    border-radius: 10px; 
   }
 }
 
@@ -310,7 +309,7 @@
     padding: 0 10px;
   }
 }
-/* DEPARTMENTS LIST */
+
 .f-list {
   flex: 1;
   display: flex;
@@ -350,7 +349,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* FEATURE DETAILS BOX */
+
 .f-details {
   flex: 2;
   padding: 30px;
@@ -383,7 +382,7 @@
   margin-bottom: 20px;
 }
 
-/* RESPONSIVE DESIGN */
+
 @media (max-width: 1024px) {
   .f-section {
     flex-direction: column;
@@ -417,10 +416,6 @@
 }
 
 
-/* =============================
-   Latest News Section - Bloomwell
-   ============================= */
-
 .latest-news-section {
   background-color: #fffcf9;
   border-radius: 10px;
@@ -433,11 +428,11 @@
 
 .latest-news-section h2 {
   font-size: 28px;
-  color: #d65a00; /* Dark blue */
+  color: #d65a00; 
   margin-bottom: 20px;
 }
 
-/* News list layout */
+
 .news-list {
   display: flex;
   flex-wrap: wrap;
@@ -445,7 +440,7 @@
   gap: 40px;
 }
 
-/* Individual news card */
+
 .news-item {
   background-color: rgb(255, 251, 243);
   padding: 20px;
@@ -460,7 +455,7 @@
   transform: translateY(-5px);
 }
 
-/* News image */
+
 .news-image {
   width: 100%;
   height: 180px;
@@ -469,28 +464,27 @@
   margin-bottom: 15px;
 }
 
-/* News title */
+
 .news-item h3 {
   font-size: 20px;
   color: #1E3A66;
   margin-bottom: 8px;
 }
 
-/* News date */
+
 .news-date {
   font-size: 14px;
   color: #9a3300;
   margin-bottom: 10px;
 }
 
-/* Description */
+
 .news-description {
   font-size: 16px;
   color: #333;
   margin-bottom: 10px;
 }
 
-/* Read more / link */
 .news-item a {
   display: inline-block;
   margin-top: 10px;
@@ -504,7 +498,7 @@
   color: #ffbb00;
 }
 
-/* Simple fade-in animation */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;

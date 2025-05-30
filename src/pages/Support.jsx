@@ -4,10 +4,10 @@ import './Support.css';
 import Footer from '../components/Footer';
 
 function Support() {
-  // Simulate login (set to true if logged in, false otherwise)
+  
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // Form states
+ 
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [message, setMessage] = useState('');
@@ -22,7 +22,7 @@ function Support() {
     
     alert(`Message sent!\nFrom: ${username} (${email})\nMessage: ${message}`);
     
-    // Clear form
+    
     setEmail('');
     setUsername('');
     setMessage('');

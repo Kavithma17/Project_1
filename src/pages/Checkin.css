@@ -1,4 +1,4 @@
-/* CheckIn.css */
+
 
 .checkin-container {
  
@@ -26,7 +26,7 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
   
 }
 
-/* Image Styling */
+
 .welcome3 .r-image img {
   width: 100%;
   max-width: 800px;
@@ -41,7 +41,7 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
   transform: scale(1.02);
 }
 
-/* Text Content Styling */
+
 .welcome3-content {
   max-width: 600px;
   font-family: 'Arial', sans-serif;
@@ -108,7 +108,7 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
     max-width: 280px;
   }
 }
-/* Base section styles */
+
 .checkin-mood-section,
 .checkin-notes-section,
 .checkin-submit-section,
@@ -116,13 +116,13 @@ background: linear-gradient(to right, #ffdb9c, #ffedbe, #ffffff, #ffffff);   tex
   margin: 2rem auto;
   max-width: 600px;
   padding: 1rem 2rem;
-  background-color: #fffbea84; /* soft yellow background */
+  background-color: #fffbea84; 
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Headings and subtext */
+
 h3 {
   font-size: 1.5rem;
   color: #8d4400;
@@ -136,7 +136,7 @@ h3 {
   margin-bottom: 1rem;
 }
 
-/* Mood buttons */
+
 .mood-buttons {
   display: flex;
   justify-content: space-around;
@@ -148,7 +148,7 @@ h3 {
 .mood-btn {
   font-size: 1.8rem;
   background-color: #fff;
-  border: 2px solid #f6c453; /* warm yellow border */
+  border: 2px solid #f6c453; 
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -157,17 +157,17 @@ h3 {
 }
 
 .mood-btn:hover {
-  border-color: #f9a825; /* deeper yellow on hover */
+  border-color: #f9a825; 
   transform: scale(1.05);
 }
 
 .mood-btn.selected {
-  background-color: #ffe082; /* soft yellow highlight */
-  border-color: #f57c00; /* strong orange */
-  box-shadow: 0 0 8px rgba(255, 183, 77, 0.5); /* warm glow */
+  background-color: #ffe082; 
+  border-color: #f57c00; 
+  box-shadow: 0 0 8px rgba(255, 183, 77, 0.5); 
 }
 
-/* Notes textarea */
+
 .notes-textarea {
   width: 100%;
   padding: 1rem;
@@ -181,19 +181,18 @@ h3 {
 
 .notes-textarea:focus {
   outline: none;
-  border-color: #ffa726; /* orange focus */
+  border-color: #ffa726;
   box-shadow: 0 0 5px rgba(255, 152, 0, 0.3);
 }
 
-/* Submit button */
+
 .submit-btn {
   display: block;
   width: 100%;
   padding: 0.75rem;
   margin-top: 1rem;
   font-size: 1rem;
-  background-color: #ffa000; /* vibrant orange */
-  color: #fff;
+  background-color: #ffa000; 
   border: none;
   border-radius: 0.75rem;
   cursor: pointer;
@@ -205,14 +204,14 @@ h3 {
 }
 
 .submit-btn:disabled {
-  background-color: #ffe0b2; /* pale orange */
+  background-color: #ffe0b2; 
   cursor: not-allowed;
 }
 
-/* Quote block */
 
 
-/* Optional confirmation */
+
+
 .checkin-confirmation {
   text-align: center;
   font-weight: 500;
@@ -220,7 +219,7 @@ h3 {
   margin-top: 1rem;
 }
 .part2 {
-  background-image: url('src/assets/mood7.jpg'); /* Replace with actual path */
+  background-image: url('src/assets/mood7.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

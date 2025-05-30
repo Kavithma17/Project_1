@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
-import './CheckIn.css';  
+import './checkin.css';
+
+
 
 function CheckIn() {
   const [mood, setMood] = useState('');

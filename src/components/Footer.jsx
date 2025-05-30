@@ -1,12 +1,12 @@
 import React from 'react';
-import './Footer.css'; // Custom CSS file for footer styling
+import './Footer.css'; 
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = ({ id }) => {
   return (
     <footer id={id} className="footer-container">
       <div className="footer-content">
-        {/* About Section */}
+   
         <div className="footer-about">
         <h3>About Bloomwell</h3>
 <p>
@@ -19,7 +19,7 @@ Bloomwell is a student-led initiative promoting mental wellness, self-care,
           
         </div>
 
-        {/* Contact Information */}
+       
         <div className="footer-contact">
           <h3>Contact Us</h3>
           <ul>
@@ -29,7 +29,7 @@ Bloomwell is a student-led initiative promoting mental wellness, self-care,
           </ul>
         </div>
 
-        {/* Social Media */}
+      
         <div className="footer-social">
           <h3>Follow Us</h3>
           <div className="social-icons">
@@ -49,7 +49,7 @@ Bloomwell is a student-led initiative promoting mental wellness, self-care,
         </div>
       </div>
 
-      {/* Copyright Section */}
+      
       <div className="footer-bottom">
         <p>© 2025 BloomWell. All rights reserved.</p>
       </div>

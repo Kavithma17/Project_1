@@ -1,12 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bloomwell – Empowering Mental Wellness for Women in Academia
 
-Currently, two official plugins are available:
+Why I Selected This Topic
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mental health is a growing concern among female  students, who often face unique challenges such as academic pressure, isolation, gender-based expectations, and limited access to peer or professional support. Recognizing the silent struggles many go through, I wanted to build a solution that is empathetic, supportive, and accessible.
 
-## Expanding the ESLint configuration
+Bloomwell was born out of the need to provide a safe, inclusive, and user-friendly platform where women can care for their mental health, connect with peers, and access wellness resources without fear or stigma.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+By blending technology with empathy, Bloomwell aims to be more than an app — it is a companion for mental clarity, emotional balance, and collective strength.
+
+
+
+Technologies Used
+
+Frontend: React.js, HTML, CSS
+
+Design & Prototyping: Figma
+
+Version Control: Git & GitHub
+
+
+
+Key Features & Functions
+
+1.  Mood Tracker
+
+Daily check-ins to log and monitor emotional states.Simple, visual interface using emojis and color-coded moods.
+
+2. Peer Support Community
+
+Anonymous forum-like space for sharing experiences, offering support, and fostering empathy.Topics moderated for safety and positivity.
+
+3.  Guided Self-Care
+
+Access to breathing exercises, meditation audio, and quick mental wellness tips.Curated content designed specifically for female students.
+
+5. Confidential & Secure
+
+User data is kept private and secure.Optional anonymous usage mode for vulnerable users.

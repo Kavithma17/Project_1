@@ -1,4 +1,4 @@
-// src/pages/Relax.jsx
+
 import React, { useState, useEffect } from 'react';
 import './Relax.css';
 import Footer from '../components/Footer';
@@ -65,7 +65,7 @@ function Relax() {
           </div>
         </section>
 
-{/* Quote Box */}
+
         <div className="quote-box">
           <p className="quote-text">{quotes[quoteIndex]}</p>
 

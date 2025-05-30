@@ -1,4 +1,4 @@
-/* General styling for the signup page */
+
 .signup {
   font-family: Arial, sans-serif;
   background-image: url(../assets/mood7.jpg);
@@ -17,9 +17,9 @@
 
 
 
-/* Signup form container */
+
 .signup-container {
-  background: #ffffffd1;
+  background: #fff2e6d0;
   padding-top: -30px;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@
   margin-top: 20px;
 }
 
-/* Signup form input box */
+
 .signup-box {
   margin-bottom: 30px;
   width: 350px;
@@ -68,7 +68,6 @@
   box-shadow: 0px 0px 5px rgba(255, 224, 163, 0.434);
 }
 
-/* Signup button styling */
 .signup-button {
   text-align: center;
   margin-top: -20px;
@@ -89,7 +88,6 @@
   background-color: #ff5e00;
 }
 
-/* Signup text and link styling */
 .signup-text {
   text-align: center;
   margin-top: 15px;

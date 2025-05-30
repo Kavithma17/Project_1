@@ -17,12 +17,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         
-        {/* Logo */}
+        
         <div className="navbar-logo">
           <Link to="/">BloomWell</Link>
         </div>
 
-        {/* Desktop Nav Links */}
+      
         <div className="navbar-links">
           <Link to="/" className="navbar-link">Home</Link>
           <Link to="/checkin" className="navbar-link">Mood Check-In</Link>
@@ -30,18 +30,18 @@ function Navbar() {
           <Link to="/support" className="navbar-link">Support</Link>
         </div>
 
-        {/* Desktop Login Button */}
+        
         <div className="navbar-button">
           <Link to="/login" className="get-started-btn">Login</Link>
         </div>
 
-        {/* Hamburger Button (Mobile) */}
+       
         <div className="navbar-hamburger" onClick={toggleMenu}>
           <span className="hamburger-icon">☰</span>
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+     
       {isMenuOpen && (
         <div className="mobile-menu">
           <Link to="/" className="navbar-link" onClick={closeMenu}>Home</Link>

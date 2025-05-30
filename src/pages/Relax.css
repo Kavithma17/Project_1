@@ -1,8 +1,8 @@
-/* RELAX PAGE STYLES */
+
 
 .relax-section {
   
-  background-color: #fffcf9; /* light purple */
+  background-color: #fffcf9;
   text-align: center;
   font-family: 'Arial', sans-serif;
   padding-top: 35px;
@@ -11,7 +11,7 @@
 
 
 
-/* Quote Box */
+
 .quote-box {
   background-image: url(../assets/ss2.jpg);
   background-position: center;
@@ -45,7 +45,7 @@
   
 }
 
-/* Image Styling */
+
 .welcome2 .r-image img {
   width: 100%;
   max-width: 800px;
@@ -60,7 +60,7 @@
   transform: scale(1.02);
 }
 
-/* Text Content Styling */
+
 .welcome2-content {
   max-width: 600px;
   font-family: 'Arial', sans-serif;
@@ -96,7 +96,7 @@
 
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .welcome2 {
     padding: 40px 15px;
@@ -122,7 +122,7 @@
     font-size: 0.95rem;
   }
 }
-/* Services Section */
+
 .services-section {
   text-align: center;
   padding: 20px 20px;
@@ -200,7 +200,7 @@
   text-align: center;
   
 }
-/* Animation for Latest News Section */
+
 
 
 .section {

@@ -19,7 +19,7 @@
 .navbar-logo a {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ff6940; /* Tailwind's purple-600 */
+  color: #ff6940; 
   text-decoration: none;
 }
 
@@ -29,14 +29,14 @@
 
 .navbar-link {
   margin-left: 1.5rem;
-  color: #4b5563; /* Tailwind's gray-700 */
+  color: #4b5563; 
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .navbar-link:hover {
-  color: #ffb940; /* Tailwind's purple-600 */
+  color: #ffb940; 
   
 }
 
@@ -61,7 +61,7 @@
   display: block;
 }
 
-/* Responsive for medium screens and up */
+
 @media (min-width: 768px) {
   .navbar-links {
     display: flex;

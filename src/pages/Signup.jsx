@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
- // Import the validation function
 import "./Signup.css";
 
 export default function SignUp() {
@@ -10,34 +9,34 @@ export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState({});
-  const [successMessage, setSuccessMessage] = useState(""); // State for success message
+  const [successMessage, setSuccessMessage] = useState(""); 
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform validation
+    
     const validationErrors = validateSignup(fname, lname, email, password);
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       return;
     }
 
-    // Proceed with API call
+    
     axios
       .post("http://localhost:3001/register", { fname, lname, email, password })
       .then((result) => {
         console.log(result);
 
-        // Show success message and clear the form
+       
         alert("You registered successfully!");
         setFname("");
         setLname("");
         setEmail("");
         setPassword("");
-        setErrors({}); // Clear any previous errors
+        setErrors({}); 
 
-        // Navigate to the login page after 2 seconds
+       
         setTimeout(() => {
           navigate("/login");
         }, 2000);
@@ -52,7 +51,7 @@ export default function SignUp() {
           <h3>Sign up</h3>
 
           {successMessage && (
-            <p className="success">{successMessage}</p> // Display success message
+            <p className="success">{successMessage}</p> 
           )}
 
           <div className="signup-box">

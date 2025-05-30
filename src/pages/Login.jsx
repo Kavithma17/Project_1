@@ -35,11 +35,11 @@ export default function Login() {
       return;
     }
 
-    // Simulate a successful login
+   
     if (email === "abc@gmail.com" && password === "abc123") {
-      // Optionally store login status
+     
       localStorage.setItem("loggedInUser", email);
-      navigate("/support"); // redirect to Support page
+      navigate("/support"); 
     } else {
       setLoginError("Invalid email or password");
     }

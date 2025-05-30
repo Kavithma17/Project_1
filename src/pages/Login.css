@@ -1,4 +1,4 @@
-/* General styling for the login page */
+
 .login {
   background-image: url(../assets/mood7.jpg);
   background-size: cover;
@@ -23,7 +23,7 @@
  }
  
  .log-container{
-   background-color: #ffffffd0;
+   background-color: #fff2e6d0;
    display: flex;
    padding: 30px;
    border-radius: 10px;
@@ -71,7 +71,7 @@
    box-shadow: 0 0 5px rgba(255, 241, 150, 0.365);
  }
  
- /* Button styling */
+
  .log-button {
    text-align: center;
    margin-top: 20px;
@@ -93,7 +93,7 @@
    background-color: #ffa774;
  }
  
- /* Link styling */
+
  .not-register {
    text-align: center;
    margin-top: 20px;
@@ -110,7 +110,7 @@
    text-decoration: underline;
  }
  
- /* Responsive styling */
+
  @media (max-width: 768px) {
    .log-container1 {
      width: 90%;
