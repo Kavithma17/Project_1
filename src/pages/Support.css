@@ -82,7 +82,7 @@
 }
 .contact-doctor-section {
   padding: 40px 20px; 
-  background-image: url(public/assets/d1.jpg);
+  background-image: url(/assets/d1.jpg);
   background-size: cover;
   text-align: center;
   margin-top: -100px;

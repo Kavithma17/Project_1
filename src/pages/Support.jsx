@@ -36,7 +36,7 @@ function Support() {
 
       <section className="welcome3">
         <div className="r-image">
-          <img src="public/assets/ss1.jpg" />
+          <img src="/assets/ss1.jpg" />
         </div>
         <div className="welcome3-content">
           <h1>We're Here to Support You</h1>

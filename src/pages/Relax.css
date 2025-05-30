@@ -13,7 +13,7 @@
 
 
 .quote-box {
-  background-image: url(public/assets/ss2.jpg);
+  background-image: url(/assets/ss2.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);

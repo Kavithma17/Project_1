@@ -26,7 +26,7 @@ function CheckIn() {
      
   <section className="welcome3">
           <div className="r-image">
-            <img src="public/assets/n1.jpg" />
+            <img src="/assets/n1.jpg" />
             
 
 
