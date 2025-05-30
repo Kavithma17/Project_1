@@ -38,3 +38,12 @@ Access to breathing exercises, meditation audio, and quick mental wellness tips.
 5. Confidential & Secure
 
 User data is kept private and secure.Optional anonymous usage mode for vulnerable users.
+
+
+
+
+Deployed Vercel link - https://project-1-ejbz.vercel.app/
+
+Figma design/prototype link - https://www.figma.com/design/dJ54dNuceNdHWxKKTFNQk9/Codia-AI-Design--Screenshot-to-Editable-Figma-Design--Community-?node-id=1-2&p=f&t=iEzkCuRKNSOMyUNH-0
+
+Google Drive link - https://drive.google.com/file/d/1-0AOtG6SCf6mynvmwcGDPg2ZqgqB8n24/view?usp=sharing
