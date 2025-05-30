@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
-import './checkin.css';
+import './Checkin.css';
 
 
 
