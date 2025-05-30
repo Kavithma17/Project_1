@@ -13,11 +13,11 @@ By blending technology with empathy, Bloomwell aims to be more than an app — i
 
 Technologies Used
 
-Frontend: React.js, HTML, CSS
+- Frontend: React.js, HTML, CSS
 
-Design & Prototyping: Figma
+- Design & Prototyping: Figma
 
-Version Control: Git & GitHub
+- Version Control: Git & GitHub
 
 
 
@@ -35,7 +35,7 @@ Anonymous forum-like space for sharing experiences, offering support, and foster
 
 Access to breathing exercises, meditation audio, and quick mental wellness tips.Curated content designed specifically for female students.
 
-5. Confidential & Secure
+4. Confidential & Secure
 
 User data is kept private and secure.Optional anonymous usage mode for vulnerable users.
 
