@@ -36,7 +36,7 @@ function Support() {
 
       <section className="welcome3">
         <div className="r-image">
-          <img src="src/assets/ss1.jpg" />
+          <img src="public/assets/ss1.jpg" />
         </div>
         <div className="welcome3-content">
           <h1>We're Here to Support You</h1>
@@ -100,7 +100,7 @@ function Support() {
       </section>
 
     <section className="contact-doctor-section">
-  <h2 className="support-heading">📝 Share Your Concerns</h2>
+  <h2 className="support-heading"> Share Your Concerns</h2>
   <p className="support-description">
     Want to speak directly to our doctor? Type your problem below—we're here to listen and help.
   </p>

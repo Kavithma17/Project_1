@@ -32,7 +32,7 @@ function Relax() {
 
         <section className="welcome2">
           <div className="r-image">
-            <img src="src/assets/r1.jpg" />
+            <img src="public/assets/r1.jpg" />
 
 
           </div>
@@ -84,14 +84,14 @@ function Relax() {
           </div>
           <div className="services-list">
             {[
-              { image: "src/assets/ex11.jpg", title: "Stretch & Breathe Routine" },
-              { image: "src/assets/ex2.jpg", title: "Beginner Yoga Flow" },
-              { image: "src/assets/ex3.jpg", title: "Dance for Joy – Feel-Good Moves" },
-              { image: "src/assets/ex4.jpg", title: "Doing creative things" },
-              { image: "src/assets/ex5.jpg", title: "Guided Meditation for Anxiety" },
-              { image: "src/assets/ex6.jpg", title: "Self-Massage Techniques" },
-              { image: "src/assets/ex77.jpg", title: "5-Minute Energy Booster Workout" },
-              { image: "src/assets/ex8.jpg", title: "Playing Music Instruments" },
+              { image: "public/assets/ex11.jpg", title: "Stretch & Breathe Routine" },
+              { image: "public/assets/ex2.jpg", title: "Beginner Yoga Flow" },
+              { image: "public/assets/ex3.jpg", title: "Dance for Joy – Feel-Good Moves" },
+              { image: "public/assets/ex4.jpg", title: "Doing creative things" },
+              { image: "public/assets/ex5.jpg", title: "Guided Meditation for Anxiety" },
+              { image: "public/assets/ex6.jpg", title: "Self-Massage Techniques" },
+              { image: "public/assets/ex77.jpg", title: "5-Minute Energy Booster Workout" },
+              { image: "public/assets/ex8.jpg", title: "Playing Music Instruments" },
 
             ].map((service, index) => (
               <div key={index} className="service-card">

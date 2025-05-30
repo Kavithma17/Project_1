@@ -8,26 +8,26 @@ const Home = () => {
 const [fDetails, setfDetails] = useState('MindHug is designed to support female students by offering a safe, inclusive, and empowering digital space. Our platform focuses on peer connection, emotional well-being, and self-care. With features like anonymous chats, peer groups, mental health resources, and personalized self-care tools, MindHug fosters a culture of empathy and support. Explore each feature to discover how we’re helping students thrive mentally and emotionally.');
 
 
-  const [backgroundImage, setBackgroundImage] = useState('src/assets/h1.jpg'); 
+  const [backgroundImage, setBackgroundImage] = useState('public/assets/h1.jpg'); 
 
 
  
   const fInfo = {
   "🫂 Join Peer Support Groups": {
     description: `Connect with others who understand your journey. Our peer support groups create a safe space to share experiences, build friendships, and find encouragement from fellow students facing similar challenges.`,
-    image: "src/assets/f1.jpg"
+    image: "public/assets/f1.jpg"
   },
   "💬 Anonymous Chat with Peers": {
     description: `Engage in real-time, anonymous conversations with peers. Whether you're seeking advice or just need to vent, our chat feature offers a supportive and confidential environment.`,
-    image: "src/assets/f21.jpg"
+    image: "public/assets/f21.jpg"
   },
   "📘 Mental Health Resources": {
     description: `Access a curated library of articles, videos, and guides focused on mental well-being. Learn about coping strategies, emotional regulation, and tips to maintain a balanced student life.`,
-    image: "src/assets/f3.jpg"
+    image: "public/assets/f3.jpg"
   },
   "🧠 Self-Care Tools ": {
     description: `Take charge of your mental health with personalized self-care tools. From mood tracking to meditation guides, explore features designed to help you manage stress and stay resilient.`,
-    image: "src/assets/f4.jpg"
+    image: "public/assets/f4.jpg"
   }
 };
 
@@ -37,21 +37,21 @@ const [fDetails, setfDetails] = useState('MindHug is designed to support female 
     title: "MindHug Support Circle Launch",
     date: "May 20, 2025",
     description: "We’ve launched peer support groups for safe, open conversations on mental health and emotional well-being.",
-    image: "src/assets/n1.jpg"
+    image: "public/assets/n1.jpg"
   },
   {
     id: 2,
     title: "Bloomwell Self-Care Saturday",
     date: "May 25, 2025",
     description: "A full-day workshop with yoga, journaling, and mindfulness sessions to help students recharge and reconnect.",
-    image: "src/assets/n2.jpg"
+    image: "public/assets/n2.jpg"
   },
   {
     id: 3,
     title: "TalkSpace Room Now Open",
     date: "June 1, 2025",
     description: "A cozy drop-in space on campus where you can talk, unwind, or simply sit in silence when life gets too loud.",
-    image: "src/assets/l3.jpg"
+    image: "public/assets/l3.jpg"
   }
 ];
 
@@ -89,16 +89,16 @@ const [fDetails, setfDetails] = useState('MindHug is designed to support female 
           </button>
         </div>
         <div className="home-image">
-          <img src="src/assets/c.jpg"/>
+          <img src="public/assets/c.jpg"/>
            
-           <img src="src/assets/d.jpg" />
+           <img src="public/assets/d.jpg" />
         </div>
       </section>
 
      
       <section className="welcome">
          <div className="home-image">
-          <img src="src/assets/a1.jpg"/>
+          <img src="public/assets/a1.jpg"/>
            
            
           </div>

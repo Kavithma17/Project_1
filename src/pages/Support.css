@@ -82,7 +82,7 @@
 }
 .contact-doctor-section {
   padding: 40px 20px; 
-  background-image: url(../assets/d1.jpg);
+  background-image: url(public/assets/d1.jpg);
   background-size: cover;
   text-align: center;
   margin-top: -100px;
@@ -174,3 +174,10 @@ padding-top: 20px;
     margin-right: auto;
   }
 }
+.support-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #c93c00;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-shadow: 1px 1px #ffe1c1;}
